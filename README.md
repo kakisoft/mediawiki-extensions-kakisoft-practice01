@@ -1,9 +1,10 @@
 # mediawiki-extensions-kakisoft-practice01
+
 This is a practice MediaWiki extension developed for learning purposes.
 
 - **Author**: Kakisoft  
 - **Compatible with**: MediaWiki 1.43.x  
-- **License**: MIT (or your preferred license)
+- **License**: MIT License
 
 ## Overview
 

@@ -1,0 +1,15 @@
+{
+  "name": "KakisoftPractice01",
+  "author": ["Kakisoft"],
+  "version": "1.0.0",
+  "description": "A simple Hello World extension for practice.",
+  "type": "parserhook",
+  "license-name": "MIT",
+  "Hooks": {
+    "ParserFirstCallInit": "KakisoftPractice01Hooks::onParserFirstCallInit"
+  },
+  "AutoloadClasses": {
+    "KakisoftPractice01Hooks": "KakisoftPractice01Hooks.php"
+  },
+  "manifest_version": 2
+}
