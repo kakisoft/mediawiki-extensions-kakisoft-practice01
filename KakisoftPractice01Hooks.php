@@ -1,12 +1,12 @@
 <?php
 
 class KakisoftPractice01Hooks {
-  public static function onParserFirstCallInit( Parser $parser ) {
-    $parser->setFunctionHook( 'hello', [ self::class, 'renderHello' ] );
-    return true;
-  }
+    public static function renderHello( Parser $parser ) {
+        return [ self::buildOutput(), 'noparse' => true ];
+    }
 
-  public static function renderHello( Parser $parser ) {
-    return [ 'Hello World', 'noparse' => true ];
-  }
+    private static function buildOutput(): string {
+        return 'Hello World';
+    }
+
 }
