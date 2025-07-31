@@ -3,9 +3,10 @@
 $magicWords = [];
 
 $magicWords['en'] = [
-  'hello' => [ 0, 'hello' ]
+    'practice01' => [ 0, 'practice01' ]
 ];
 
 $magicWords['ja'] = [
-  'hello' => [ 0, 'hello' ]
+    'practice01' => [ 0, 'practice01' ]
 ];
+

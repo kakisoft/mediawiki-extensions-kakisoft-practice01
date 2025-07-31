@@ -3,12 +3,13 @@
 class KakisoftPractice01Hooks {
     // フックで必要な構文登録処理
     public static function onParserFirstCallInit( Parser $parser ) {
-        $parser->setFunctionHook( 'hello', [ self::class, 'renderHello' ] );
+        // 'hello' を 'practice01' に変更
+        $parser->setFunctionHook( 'practice01', [ self::class, 'renderPractice01' ] );
         return true;
     }
 
     // パーサ関数の本体
-    public static function renderHello( Parser $parser ) {
+    public static function renderPractice01( Parser $parser ) {
         return [ self::buildOutput(), 'noparse' => true ];
     }
 
