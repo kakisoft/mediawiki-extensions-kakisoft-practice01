@@ -16,8 +16,5 @@
       "i18n"
     ]
   },
-  "MagicWordsFiles": [
-    "i18n/MagicWords.php"
-  ],
   "manifest_version": 2
 }
