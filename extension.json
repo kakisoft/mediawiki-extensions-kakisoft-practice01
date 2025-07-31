@@ -16,5 +16,11 @@
       "i18n"
     ]
   },
+  "MagicWords": {
+    "practice01": {
+      "en": "practice01",
+      "ja": "practice01"
+    }
+  },
   "manifest_version": 2
 }
