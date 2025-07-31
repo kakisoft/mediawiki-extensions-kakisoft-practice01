@@ -1,10 +1,11 @@
 <?php
 
-return [
-    'en' => [
-        'practice01' => [ 0, 'practice01' ]
-    ],
-    'ja' => [
-        'practice01' => [ 0, 'practice01' ]
-    ]
+$magicWords = [];
+
+$magicWords['en'] = [
+    'practice01' => [ 0, 'practice01' ]
+];
+
+$magicWords['ja'] = [
+    'practice01' => [ 0, 'practice01' ]
 ];

@@ -11,13 +11,13 @@
   "AutoloadClasses": {
     "KakisoftPractice01Hooks": "KakisoftPractice01Hooks.php"
   },
+  "ExtensionMessagesFiles": {
+    "KakisoftPractice01Magic": "KakisoftPractice01.i18n.magic.php"
+  },
   "MessagesDirs": {
     "KakisoftPractice01": [
       "i18n"
     ]
-  },
-  "MagicWords": {
-    "practice01": [ "0", "practice01" ]
   },
   "manifest_version": 2
 }
