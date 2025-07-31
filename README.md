@@ -16,5 +16,5 @@ It is intended as a minimal working example to understand how to build MediaWiki
 Clone this repository into your MediaWiki `extensions/` directory:
 
 ```bash
-git clone https://github.com/yourusername/mediawiki-extensions-kakisoft-practice01.git
+git clone https://github.com/kakisoft/mediawiki-extensions-kakisoft-practice01.git KakisoftPractice01
 ```
