@@ -11,12 +11,13 @@
   "AutoloadClasses": {
     "KakisoftPractice01Hooks": "KakisoftPractice01Hooks.php"
   },
-  "MagicWords": {
-    "en": {
-      "hello": {
-        "0": "hello"
-      }
-    }
+  "MessagesDirs": {
+    "KakisoftPractice01": [
+      "i18n"
+    ]
   },
+  "MagicWordsFiles": [
+    "i18n/MagicWords.php"
+  ],
   "manifest_version": 2
 }
